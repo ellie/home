@@ -4,7 +4,7 @@ slug = "2022"
 date = 2023-01-10
 
 [taxonomies]
-tags = ["usa"]
+tags = ["year"]
 +++
 
 ![](https://img.ellie.wtf/i/2e8befc770a7ab4cf77280710d3851a79217c5512bd4adb1faf4ef279306d26c.jpg)

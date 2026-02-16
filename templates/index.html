@@ -18,6 +18,32 @@
       </ul>
     </div>
 
+    {% set notes_section = get_section(path="notes/_index.md") %}
+    {% if notes_section.pages | length > 0 %}
+    <div style="margin-bottom: 2rem;">
+      <div class="section-header">
+        <h2># notes</h2>
+        <span class="section-path">~/notes</span>
+      </div>
+      <ul class="post-list">
+        {% for page in notes_section.pages | slice(end=5) %}
+        <li>
+          <div>
+            <a href="{{ page.path }}" class="post-title">{{ page.title }}</a>
+            {{ m::tags(page=page) }}
+          </div>
+          {% if page.date %}
+          <span class="post-date">{{ page.date | date(format="%b %d, %Y") }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% if notes_section.pages | length > 5 %}
+      <a href="/notes/" class="see-all">all notes &rarr;</a>
+      {% endif %}
+    </div>
+    {% endif %}
+
     {% set posts_section = get_section(path="posts/_index.md") %}
     {% if posts_section.pages | length > 0 %}
     <div style="margin-bottom: 2rem;">
@@ -66,32 +92,6 @@
       </ul>
       {% if life_section.pages | length > 5 %}
       <a href="/life/" class="see-all">all life &rarr;</a>
-      {% endif %}
-    </div>
-    {% endif %}
-
-    {% set notes_section = get_section(path="notes/_index.md") %}
-    {% if notes_section.pages | length > 0 %}
-    <div style="margin-bottom: 2rem;">
-      <div class="section-header">
-        <h2># notes</h2>
-        <span class="section-path">~/notes</span>
-      </div>
-      <ul class="post-list">
-        {% for page in notes_section.pages | slice(end=5) %}
-        <li>
-          <div>
-            <a href="{{ page.path }}" class="post-title">{{ page.title }}</a>
-            {{ m::tags(page=page) }}
-          </div>
-          {% if page.date %}
-          <span class="post-date">{{ page.date | date(format="%b %d, %Y") }}</span>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-      {% if notes_section.pages | length > 5 %}
-      <a href="/notes/" class="see-all">all notes &rarr;</a>
       {% endif %}
     </div>
     {% endif %}
