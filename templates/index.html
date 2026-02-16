@@ -95,6 +95,46 @@
       {% endif %}
     </div>
     {% endif %}
+
+    {% set projects_section = get_section(path="projects/_index.md") %}
+    {% if projects_section.pages | length > 0 %}
+    <div style="margin-bottom: 2rem;">
+      <div class="section-header">
+        <h2># projects</h2>
+        <span class="section-path">~/projects</span>
+      </div>
+      <ul class="wiki-list">
+        {% for page in projects_section.pages %}
+        <li>
+          <a href="{{ page.permalink }}" class="wiki-link">
+            <span class="wiki-title">{{ page.title }}</span>
+            {{ m::tags(page=page) }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    {% set motorcycles_section = get_section(path="motorcycles/_index.md") %}
+    {% if motorcycles_section.pages | length > 0 %}
+    <div style="margin-bottom: 2rem;">
+      <div class="section-header">
+        <h2># motorcycles</h2>
+        <span class="section-path">~/motorcycles</span>
+      </div>
+      <ul class="wiki-list">
+        {% for page in motorcycles_section.pages %}
+        <li>
+          <a href="{{ page.permalink }}" class="wiki-link">
+            <span class="wiki-title">{{ page.title }}</span>
+            {{ m::tags(page=page) }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
   </div>
 
   <div class="side-col">
