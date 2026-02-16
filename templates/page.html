@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+
+{% block path %}~{{ page.path | trim_end_matches(pat="/") }}{% endblock path %}
+
+{% block content %}
+<article>
+  <h1 class="article-title">{{ page.title }}</h1>
+  <div class="post-meta">
+    {% if page.date %}
+    <span>{{ page.date | date(format="%b %d, %Y") }}</span>
+    {% endif %}
+    {{ m::tags(page=page) }}
+  </div>
+
+  <div class="content">
+    {{ page.content | safe }}
+  </div>
+</article>
+{% endblock content %}

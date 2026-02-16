@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block title %}{{ page.title }} · {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+
+{% block path %}~{{ page.path | trim_end_matches(pat="/") }}{% endblock path %}
+
+{% block content %}
+{% set git_dates = load_data(path="_git-dates.json", required=false) %}
+<article>
+  <h1 class="article-title">{{ page.title }}</h1>
+  <div class="post-meta">
+    {% if page.updated %}
+    <span class="wiki-updated">updated {{ page.updated | date(format="%b %d, %Y") }}</span>
+    {% elif git_dates and git_dates[page.relative_path] %}
+    <span class="wiki-updated">updated {{ git_dates[page.relative_path] }}</span>
+    {% elif page.date %}
+    <span class="wiki-updated">updated {{ page.date | date(format="%b %d, %Y") }}</span>
+    {% endif %}
+    {{ m::tags(page=page) }}
+  </div>
+
+  <div class="content">
+    {{ page.content | safe }}
+  </div>
+</article>
+{% endblock content %}

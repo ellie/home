@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
+{% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}
+{% block path %}~{{ section.path | trim_end_matches(pat="/") }}{% endblock path %}
+
+{% block content %}
+<div class="section-page">
+  <div class="section-header">
+    <h1># {{ section.title | lower }}</h1>
+    <span class="section-path">~{{ section.path | trim_end_matches(pat="/") }}</span>
+  </div>
+
+  {% if section.description %}
+  <p class="section-description">{{ section.description }}</p>
+  {% endif %}
+
+  {% if section.pages | length > 0 %}
+  <ul class="wiki-list">
+    {% for page in section.pages %}
+    <li>
+      <a href="{{ page.permalink }}" class="wiki-link">
+        <span class="wiki-title">{{ page.title }}</span>
+        {{ m::tags(page=page) }}
+      </a>
+      {% if page.description %}
+      <span class="wiki-desc">{{ page.description }}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p style="color: #a1a1aa; font-size: 0.875rem;">Nothing here yet.</p>
+  {% endif %}
+</div>
+{% endblock content %}

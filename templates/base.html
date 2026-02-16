@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+  <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <a href="/" class="site-title">Ellie Huxtable<span class="terminal-cursor">█</span></a>
+        <span class="current-path">{% block path %}~{% endblock path %}</span>
+      </div>
+      <nav>
+        <a href="https://github.com/{{ config.extra.github }}">github</a>
+        <a href="https://bsky.app/profile/{{ config.extra.bluesky }}">bluesky</a>
+        <a href="https://twitter.com/{{ config.extra.twitter }}">twitter</a>
+        <a href="https://{{ config.extra.mastodon_instance }}/@{{ config.extra.mastodon_user }}" rel="me">mastodon</a>
+        <a href="{{ get_url(path='atom.xml') }}">rss</a>
+      </nav>
+    </header>
+
+    <main>
+      {% block content %}{% endblock content %}
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <span class="footer-copy">&copy; {{ now() | date(format="%Y") }} Ellie Huxtable</span>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll("article pre").forEach(function(pre) {
+        if (pre.parentNode.classList.contains("code-wrapper")) return;
+
+        var wrapper = document.createElement("div");
+        wrapper.className = "code-wrapper";
+        pre.parentNode.insertBefore(wrapper, pre);
+        wrapper.appendChild(pre);
+
+        var button = document.createElement("button");
+        button.className = "copy-button";
+        button.textContent = "Copy";
+
+        button.addEventListener("click", function() {
+          var code = pre.querySelector("code") || pre;
+          navigator.clipboard.writeText(code.innerText).then(function() {
+            button.textContent = "Copied";
+            setTimeout(function() { button.textContent = "Copy"; }, 2000);
+          });
+        });
+
+        wrapper.appendChild(button);
+      });
+
+      // Now playing
+      var el = document.getElementById("now-playing-text");
+      if (el) {
+        fetch("https://ellie-nowplaying.web.val.run/")
+          .then(function(r) { return r.json(); })
+          .then(function(data) {
+            if (data.trackName && data.artist) {
+              el.textContent = data.artist + " \u2013 " + data.trackName;
+            } else {
+              el.textContent = "nothing rn";
+            }
+          })
+          .catch(function() {
+            el.textContent = "offline";
+          });
+      }
+    });
+  </script>
+</body>
+</html>

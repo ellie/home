@@ -1,0 +1,32 @@
+base_url = "https://ellie.wtf"
+title = "Ellie's Notes"
+description = "Personal site of Ellie Huxtable"
+compile_sass = true
+build_search_index = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+[markdown]
+github_alerts = true
+
+[markdown.highlighting]
+theme = "gruvbox-dark-soft"
+
+[extra]
+author = "Ellie Huxtable"
+email = "ellie@elliehuxtable.com"
+github = "ellie"
+mastodon_user = "ellie"
+mastodon_instance = "hachyderm.io"
+twitter = "ellie_huxtable"
+bluesky = "ellie.wtf"
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+
+[[taxonomies]]
+name = "tags"
+feed = true

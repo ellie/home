@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+<div class="homepage">
+  <div class="main-col">
+    <p class="bio">
+      I'm a software engineer + infra nerd, and am at my happiest when I'm building <em>something cool</em>. I love an adventure, and if I'm not at a computer there's a good chance I'm riding a motorcycle.
+    </p>
+    <div style="margin-bottom: 2rem;">
+      <div class="section-header">
+        <h2># now</h2>
+        <span class="section-path">~/now</span>
+      </div>
+      <ul class="now-list">
+        <li><span class="now-label">building</span> <a href="https://atuin.sh">atuin</a></li>
+        <li id="now-playing"><span class="now-label">listening</span> <span class="now-value" id="now-playing-text">...</span></li>
+      </ul>
+    </div>
+
+    {% set posts_section = get_section(path="posts/_index.md") %}
+    {% if posts_section.pages | length > 0 %}
+    <div style="margin-bottom: 2rem;">
+      <div class="section-header">
+        <h2># posts</h2>
+        <span class="section-path">~/posts</span>
+      </div>
+      <ul class="post-list">
+        {% for page in posts_section.pages | slice(end=5) %}
+        <li>
+          <div>
+            <a href="{{ page.permalink }}" class="post-title">{{ page.title }}</a>
+            {{ m::tags(page=page) }}
+          </div>
+          {% if page.date %}
+          <span class="post-date">{{ page.date | date(format="%b %d, %Y") }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% if posts_section.pages | length > 5 %}
+      <a href="{{ get_url(path='@/posts/_index.md') }}" class="see-all">all posts &rarr;</a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% set life_section = get_section(path="life/_index.md") %}
+    {% if life_section.pages | length > 0 %}
+    <div style="margin-bottom: 2rem;">
+      <div class="section-header">
+        <h2># life</h2>
+        <span class="section-path">~/life</span>
+      </div>
+      <ul class="post-list">
+        {% for page in life_section.pages | slice(end=5) %}
+        <li>
+          <div>
+            <a href="{{ page.permalink }}" class="post-title">{{ page.title }}</a>
+            {{ m::tags(page=page) }}
+          </div>
+          {% if page.date %}
+          <span class="post-date">{{ page.date | date(format="%b %d, %Y") }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% if life_section.pages | length > 5 %}
+      <a href="{{ get_url(path='@/life/_index.md') }}" class="see-all">all life &rarr;</a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% set notes_section = get_section(path="notes/_index.md") %}
+    {% if notes_section.pages | length > 0 %}
+    <div>
+      <div class="section-header">
+        <h2># notes</h2>
+        <span class="section-path">~/notes</span>
+      </div>
+      <ul class="post-list">
+        {% for page in notes_section.pages | slice(end=5) %}
+        <li>
+          <div>
+            <a href="{{ page.permalink }}" class="post-title">{{ page.title }}</a>
+            {{ m::tags(page=page) }}
+          </div>
+          {% if page.date %}
+          <span class="post-date">{{ page.date | date(format="%b %d, %Y") }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      {% if notes_section.pages | length > 5 %}
+      <a href="{{ get_url(path='@/notes/_index.md') }}" class="see-all">all notes &rarr;</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="side-col">
+    <img src="https://yeet.ellie.wtf/i/2da5e1c479d6f6cafd364cd95db8c51ca9928dff8653abc09c29b3d53a2e6115.jpeg" alt="Ellie" />
+  </div>
+</div>
+{% endblock content %}

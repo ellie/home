@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Tags · {{ config.title }}{% endblock title %}
+{% block path %}~/tags{% endblock path %}
+
+{% block content %}
+<div class="section-page">
+  <div class="section-header">
+    <h1># tags</h1>
+    <span class="section-path">~/tags</span>
+  </div>
+  <ul class="post-list">
+    {% for term in terms %}
+    <li>
+      <a href="{{ term.permalink }}" class="post-title">{{ term.name }}</a>
+      <span class="post-date">{{ term.pages | length }} posts</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock content %}
