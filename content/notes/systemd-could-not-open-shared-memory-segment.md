@@ -6,7 +6,7 @@ date = 2023-09-01
 tags = ["systemd", "linux", "postgresql"]
 +++
 
-I spent a while operating [[postgresql | PostgreSQL]] running on an EC2 instance. We had a weird problem where sometimes queries would fail, with the error
+I spent a while operating [PostgreSQL](/notes/postgresql/) running on an EC2 instance. We had a weird problem where sometimes queries would fail, with the error
 
 >  `could not open shared memory segment "/PostgreSQL.271741757"`.
 

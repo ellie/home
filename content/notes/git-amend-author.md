@@ -39,7 +39,7 @@ git filter-branch -f --commit-filter '
 ```
 
 ### Using filter repo
-I first mentioned `git-filter-repo` in [[split git repo]], but it's useful here too. Preferable to filter-branch, but not included in the base git install.
+I first mentioned `git-filter-repo` in [split git repo](/notes/split-git-repo/), but it's useful here too. Preferable to filter-branch, but not included in the base git install.
 
 Install with
 

@@ -8,7 +8,7 @@ tags = ["usa", "wc23"]
 
 ![](https://img.ellie.wtf/i/e5e5abad2aeaf60297dc2a9f0f50a182c7339fe7a5bdaa2ee41808e859093d68.jpg)
 
-Carrying on from [[san francisco to fort bragg | yesterday]], we woke up early and got ready to ride the stretch up to Weaverville. The view from the hotel this morning was absolutely stunning - the fog was slowly burning off as the sun was brightening up, and the valley was echoing with seal calls. They were less atmospheric at 3am last night, though.
+Carrying on from [yesterday](/life/san-francisco-to-fort-bragg/), we woke up early and got ready to ride the stretch up to Weaverville. The view from the hotel this morning was absolutely stunning - the fog was slowly burning off as the sun was brightening up, and the valley was echoing with seal calls. They were less atmospheric at 3am last night, though.
 
 I've entirely shaken off the jet lag at this point, and slept through to 06:30 without any major difficulties 🥳 It only took two nights to get used to the new timezone, so not bad!
 

@@ -29,7 +29,7 @@ I made friends with a chicken! She enjoyed the crumbs from my cookie
 
 After this stop, we rode for a while longer, on a mix of hw 1 and some twistier side roads. I really like how this part of the world is a big mix of mountains, forests, and coast
 
-The last time I had ridden this route was in [[2022]], and I stopped at a cafe (Cafe Aquatica) before turning back. Seeing as this time we were going to be going _much_ further north, I thought it would make a nice tea break.
+The last time I had ridden this route was in [2022](/life/2022/), and I stopped at a cafe (Cafe Aquatica) before turning back. Seeing as this time we were going to be going _much_ further north, I thought it would make a nice tea break.
 
 I'd been wanting to stop to take a photo, so after a period of riding uphill we found a good opportunity for a photo! It was so incredibly quiet that stopping in the middle of the road wasn't a problem.
 

@@ -6,7 +6,7 @@ date = 2023-09-13
 tags = ["rust"]
 +++
 
-Observability is important! Generally I use Axum as my HTTP framework in [[rust|Rust]], as it's pretty ergonomic to use + fast.
+Observability is important! Generally I use Axum as my HTTP framework in [Rust](/notes/rust/), as it's pretty ergonomic to use + fast.
 
 > [!NOTE]
 > [tower-http](https://github.com/tower-rs/tower-http) provides a bunch of useful HTTP middlewares used in a lot of projects. At the moment it does not provide a metrics middleware. Someday it may do! 

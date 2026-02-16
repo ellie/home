@@ -6,9 +6,9 @@ date = 2023-10-31
 tags = ["postgresql", "zfs"]
 +++
 
-I'm setting up new [[postgresql | postgres]] servers for [[atuin | Atuin]]! We're going with a hot replica this time, and making things _much_ more reliable. Atuin has had no outages or database issues in a couple of years, but I don't want to push my luck.
+I'm setting up new [postgres](/notes/postgresql/) servers for [Atuin](/projects/atuin/)! We're going with a hot replica this time, and making things _much_ more reliable. Atuin has had no outages or database issues in a couple of years, but I don't want to push my luck.
 
-You might also be interested in the [[hetzner k3s]] setup I did for the Atuin api images
+You might also be interested in the [hetzner k3s](/notes/hetzner-k3s/) setup I did for the Atuin api images
 
 I'm going to be doing a fairly minimal setup to begin with, and tune things later. I'm not sure which options will best suit my workload, so will keep things simple.
 

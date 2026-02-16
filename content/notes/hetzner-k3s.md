@@ -6,7 +6,7 @@ date = 2023-10-08
 tags = ["infra", "kubernetes"]
 +++
 
-I setup a HA k3s cluster for [[atuin | Atuin]] recently! 
+I setup a HA k3s cluster for [Atuin](/projects/atuin/) recently! 
 
 I'm using HA etcd, which means we need to run an odd number of "server" nodes, and obviously more than one of them. That makes 3 the minimum. 
 

@@ -8,7 +8,7 @@ tags = ["rust", "evergreen"]
 
 My Rust reference page
 ## Projects
-- [[atuin | Atuin]]
+- [Atuin](/projects/atuin/)
 ## Cargo
 ### Run just integration tests
 ```
