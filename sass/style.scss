@@ -765,3 +765,272 @@ footer {
     align-items: flex-start;
   }
 }
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #18181b;
+    color: #d4d4d8;
+  }
+
+  a {
+    color: #a1a1aa;
+
+    &:hover {
+      color: #d4d4d8;
+    }
+  }
+
+  header {
+    .site-title {
+      color: #fafafa;
+
+      &:hover {
+        color: #fafafa;
+      }
+    }
+
+    .terminal-cursor {
+      color: #71717a;
+    }
+
+    .current-path {
+      color: #71717a;
+    }
+
+    nav a {
+      color: #71717a;
+
+      &:hover {
+        color: #a1a1aa;
+      }
+    }
+  }
+
+  .homepage {
+    .bio {
+      color: #9ca3af;
+    }
+
+    .currently {
+      color: #71717a;
+
+      .arrow {
+        color: #52525b;
+      }
+
+      a {
+        color: #9ca3af;
+
+        &:hover {
+          color: #d4d4d8;
+        }
+      }
+    }
+  }
+
+  .now-list {
+    li {
+      border-left-color: #3f3f46;
+      color: #d4d4d8;
+    }
+
+    .now-label {
+      color: #71717a;
+    }
+
+    a {
+      color: #d4d4d8;
+
+      &:hover {
+        color: #fafafa;
+      }
+    }
+  }
+
+  .section-header {
+    h2 {
+      color: #e4e4e7;
+    }
+
+    .section-path {
+      color: #52525b;
+    }
+  }
+
+  .post-list {
+    li {
+      border-left-color: #3f3f46;
+
+      &:hover {
+        border-left-color: #71717a;
+      }
+
+      a.post-title {
+        color: #d4d4d8;
+      }
+
+      &:hover a.post-title {
+        color: #fafafa;
+      }
+    }
+
+    .post-date {
+      color: #71717a;
+    }
+  }
+
+  .see-all {
+    color: #71717a;
+
+    &:hover {
+      color: #a1a1aa;
+    }
+  }
+
+  .section-page {
+    h1 {
+      color: #fafafa;
+    }
+
+    .section-description {
+      color: #9ca3af;
+    }
+  }
+
+  article {
+    color: #d4d4d8;
+
+    h1.article-title {
+      color: #e4e4e7;
+    }
+
+    .post-meta {
+      color: #71717a;
+    }
+
+    .content {
+      h1, h2, h3, h4 {
+        color: #fafafa;
+      }
+
+      a {
+        color: #60a5fa;
+
+        &:hover {
+          color: #93c5fd;
+        }
+      }
+
+      blockquote {
+        border-left-color: #52525b;
+        color: #9ca3af;
+      }
+
+      :not(pre) > code {
+        background-color: #27272a;
+        color: #f472b6;
+      }
+
+      hr {
+        border-top-color: #3f3f46;
+      }
+
+      table {
+        th, td {
+          border-color: #3f3f46;
+        }
+
+        th {
+          background: #27272a;
+          color: #fafafa;
+        }
+      }
+
+      .copy-button {
+        color: #71717a;
+      }
+
+      .copy-button:hover {
+        color: #d4d4d8;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+
+  .wiki-list {
+    li {
+      border-left-color: #3f3f46;
+
+      &:hover {
+        border-left-color: #71717a;
+      }
+    }
+
+    .wiki-link {
+      color: #d4d4d8;
+
+      &:hover {
+        color: #fafafa;
+      }
+    }
+
+    .wiki-desc {
+      color: #71717a;
+    }
+  }
+
+  .tag-muted {
+    color: #52525b;
+  }
+
+  .tag-link {
+    color: #71717a;
+
+    &:hover {
+      color: #a1a1aa;
+    }
+  }
+
+  blockquote[class^="markdown-alert"] {
+    border-left-color: #52525b;
+    background: #27272a;
+    color: #d4d4d8;
+  }
+
+  .markdown-alert-note {
+    border-left-color: #3b82f6;
+  }
+
+  .markdown-alert-tip {
+    border-left-color: #10b981;
+  }
+
+  .markdown-alert-important {
+    border-left-color: #8b5cf6;
+  }
+
+  .markdown-alert-warning {
+    border-left-color: #f59e0b;
+  }
+
+  .markdown-alert-caution {
+    border-left-color: #ef4444;
+  }
+
+  footer {
+    border-top-color: #27272a;
+
+    .footer-inner {
+      color: #71717a;
+
+      a {
+        color: #71717a;
+
+        &:hover {
+          color: #a1a1aa;
+        }
+      }
+    }
+  }
+}

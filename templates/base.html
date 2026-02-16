@@ -5,6 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+
+  {% if page is defined %}
+    {% set_global meta_title = page.title ~ " · " ~ config.title %}
+    {% set_global meta_description = page.description | default(value=config.description) %}
+    {% set_global meta_url = config.base_url ~ page.path %}
+    {% set_global meta_type = "article" %}
+  {% elif section is defined and section.title and section.title != config.title %}
+    {% set_global meta_title = section.title ~ " · " ~ config.title %}
+    {% set_global meta_description = section.description | default(value=config.description) %}
+    {% set_global meta_url = config.base_url ~ section.path %}
+    {% set_global meta_type = "website" %}
+  {% else %}
+    {% set_global meta_title = config.title %}
+    {% set_global meta_description = config.description %}
+    {% set_global meta_url = config.base_url %}
+    {% set_global meta_type = "website" %}
+  {% endif %}
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ meta_title }}">
+  <meta property="og:description" content="{{ meta_description }}">
+  <meta property="og:url" content="{{ meta_url }}">
+  <meta property="og:type" content="{{ meta_type }}">
+  <meta property="og:site_name" content="{{ config.title }}">
+  <meta property="og:image" content="https://yeet.ellie.wtf/i/2da5e1c479d6f6cafd364cd95db8c51ca9928dff8653abc09c29b3d53a2e6115.jpeg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@{{ config.extra.twitter }}">
+  <meta name="twitter:title" content="{{ meta_title }}">
+  <meta name="twitter:description" content="{{ meta_description }}">
+  <meta name="twitter:image" content="https://yeet.ellie.wtf/i/2da5e1c479d6f6cafd364cd95db8c51ca9928dff8653abc09c29b3d53a2e6115.jpeg">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/style.css">
   <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="/atom.xml">
   <!-- Privacy-friendly analytics by Plausible -->
