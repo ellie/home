@@ -1,5 +1,5 @@
 {% macro tags(page) %}
 {% if page.taxonomies.tags is defined and page.taxonomies.tags | length > 0 %}
-<span class="tag-list"><span class="tag-muted">[</span>{% for tag in page.taxonomies.tags %}<a href="{{ get_taxonomy_url(kind='tags', name=tag) }}" class="tag-link">{{ tag }}</a>{% if not loop.last %}<span class="tag-muted">, </span>{% endif %}{% endfor %}<span class="tag-muted">]</span></span>
+<span class="tag-list"><span class="tag-muted">[</span>{% for tag in page.taxonomies.tags %}<a href="/tags/{{ tag }}/" class="tag-link">{{ tag }}</a>{% if not loop.last %}<span class="tag-muted">, </span>{% endif %}{% endfor %}<span class="tag-muted">]</span></span>
 {% endif %}
 {% endmacro %}

@@ -29,7 +29,7 @@
         {% for page in posts_section.pages | slice(end=5) %}
         <li>
           <div>
-            <a href="{{ page.permalink }}" class="post-title">{{ page.title }}</a>
+            <a href="{{ page.path }}" class="post-title">{{ page.title }}</a>
             {{ m::tags(page=page) }}
           </div>
           {% if page.date %}
@@ -39,7 +39,7 @@
         {% endfor %}
       </ul>
       {% if posts_section.pages | length > 5 %}
-      <a href="{{ get_url(path='@/posts/_index.md') }}" class="see-all">all posts &rarr;</a>
+      <a href="/posts/" class="see-all">all posts &rarr;</a>
       {% endif %}
     </div>
     {% endif %}
@@ -55,7 +55,7 @@
         {% for page in life_section.pages | slice(end=5) %}
         <li>
           <div>
-            <a href="{{ page.permalink }}" class="post-title">{{ page.title }}</a>
+            <a href="{{ page.path }}" class="post-title">{{ page.title }}</a>
             {{ m::tags(page=page) }}
           </div>
           {% if page.date %}
@@ -65,7 +65,7 @@
         {% endfor %}
       </ul>
       {% if life_section.pages | length > 5 %}
-      <a href="{{ get_url(path='@/life/_index.md') }}" class="see-all">all life &rarr;</a>
+      <a href="/life/" class="see-all">all life &rarr;</a>
       {% endif %}
     </div>
     {% endif %}
@@ -81,7 +81,7 @@
         {% for page in notes_section.pages | slice(end=5) %}
         <li>
           <div>
-            <a href="{{ page.permalink }}" class="post-title">{{ page.title }}</a>
+            <a href="{{ page.path }}" class="post-title">{{ page.title }}</a>
             {{ m::tags(page=page) }}
           </div>
           {% if page.date %}
@@ -91,7 +91,7 @@
         {% endfor %}
       </ul>
       {% if notes_section.pages | length > 5 %}
-      <a href="{{ get_url(path='@/notes/_index.md') }}" class="see-all">all notes &rarr;</a>
+      <a href="/notes/" class="see-all">all notes &rarr;</a>
       {% endif %}
     </div>
     {% endif %}
@@ -106,7 +106,7 @@
       <ul class="wiki-list">
         {% for page in projects_section.pages %}
         <li>
-          <a href="{{ page.permalink }}" class="wiki-link">
+          <a href="{{ page.path }}" class="wiki-link">
             <span class="wiki-title">{{ page.title }}</span>
             {{ m::tags(page=page) }}
           </a>
@@ -126,7 +126,7 @@
       <ul class="wiki-list">
         {% for page in motorcycles_section.pages %}
         <li>
-          <a href="{{ page.permalink }}" class="wiki-link">
+          <a href="{{ page.path }}" class="wiki-link">
             <span class="wiki-title">{{ page.title }}</span>
             {{ m::tags(page=page) }}
           </a>

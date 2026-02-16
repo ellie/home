@@ -20,7 +20,7 @@
   <ul class="wiki-list">
     {% for page in section.pages %}
     <li>
-      <a href="{{ page.permalink }}" class="wiki-link">
+      <a href="{{ page.path }}" class="wiki-link">
         <span class="wiki-title">{{ page.title }}</span>
         {{ m::tags(page=page) }}
       </a>

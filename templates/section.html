@@ -21,7 +21,7 @@
     {% for page in section.pages %}
     <li>
       <div>
-        <a href="{{ page.permalink }}" class="post-title">{{ page.title }}</a>
+        <a href="{{ page.path }}" class="post-title">{{ page.title }}</a>
         {{ m::tags(page=page) }}
       </div>
       {% if page.date %}

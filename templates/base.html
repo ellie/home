@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
-  <link rel="stylesheet" href="{{ get_url(path='style.css') }}">
-  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="/atom.xml">
 </head>
 <body>
   <div class="container">
@@ -20,7 +20,7 @@
         <a href="https://bsky.app/profile/{{ config.extra.bluesky }}">bluesky</a>
         <a href="https://twitter.com/{{ config.extra.twitter }}">twitter</a>
         <a href="https://{{ config.extra.mastodon_instance }}/@{{ config.extra.mastodon_user }}" rel="me">mastodon</a>
-        <a href="{{ get_url(path='atom.xml') }}">rss</a>
+        <a href="/atom.xml">rss</a>
       </nav>
     </header>
 
