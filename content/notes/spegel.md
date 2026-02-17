@@ -6,7 +6,7 @@ date = 2026-02-16
 tags = ["kubernetes", "docker"]
 +++
 
-[spegel](https://yeet.ellie.wtf/i/e2cec761f3a3353d00bd4ce001a3b3d749d92133721c362a9f39ae585dfbeb63.gif)
+![spegel](https://yeet.ellie.wtf/i/e2cec761f3a3353d00bd4ce001a3b3d749d92133721c362a9f39ae585dfbeb63.gif)
 
 I was recently setting up a new k3s cluster for running 
 [Atuin](https://atuin.sh). Since I wrote my [last note](/notes/hetzner-k3s/) on 
