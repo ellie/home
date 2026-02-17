@@ -13,7 +13,7 @@ I was recently setting up a new k3s cluster for running
 the subject, a few things have changed!
 
 I definitely need to do a v2 of my post, but in the meantime I learned a bit 
-about Spegel, an optional integrated registry included with k3s. 
+about [Spegel](https://github.com/spegel-org/spegel), an optional integrated registry included with k3s. 
 
 If server nodes are started with `--embedded-registry`, then they will setup + 
 run a Spegel registry. This means they host a local OCI registry on port 6443,
@@ -35,3 +35,5 @@ can enable wildcard mirroring with `"*":`, quoted required.
 
 The p2p routing works in a very similar way to BitTorrent - Spegel also uses a
 Kademlia DHT for resolving digests.
+
+*gif sourced from the spegel readme*
