@@ -19,5 +19,55 @@
   <div class="content">
     {{ page.content | safe }}
   </div>
+
+  {% if page.taxonomies.tags %}
+  {% set_global related = [] %}
+  {% set_global seen_permalinks = [page.permalink] %}
+  {% if page.backlinks %}
+    {% for b in page.backlinks %}
+      {% set_global seen_permalinks = seen_permalinks | concat(with=b.permalink) %}
+    {% endfor %}
+  {% endif %}
+  {% for tag in page.taxonomies.tags %}
+    {% set term = get_taxonomy_term(kind="tags", term=tag) %}
+    {% for other in term.pages %}
+      {% if other.permalink not in seen_permalinks %}
+        {% set_global related = related | concat(with=other) %}
+        {% set_global seen_permalinks = seen_permalinks | concat(with=other.permalink) %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% if related | length > 0 %}
+  <aside class="related">
+    <h2>Related notes</h2>
+    <ul class="post-list">
+      {% for other in related %}
+      <li>
+        <a href="{{ other.path }}" class="post-title">{{ other.title }}</a>
+        {% if other.date %}
+        <span class="post-date">{{ other.date | date(format="%b %d, %Y") }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
+  {% endif %}
+
+  {% if page.backlinks %}
+  <aside class="related">
+    <h2>Linked from</h2>
+    <ul class="post-list">
+      {% for other in page.backlinks %}
+      <li>
+        <a href="{{ other.permalink }}" class="post-title">{{ other.title }}</a>
+        {% if other.date %}
+        <span class="post-date">{{ other.date | date(format="%b %d, %Y") }}</span>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+  {% endif %}
 </article>
 {% endblock content %}
