@@ -1,0 +1,9 @@
+# Photos for /photos that aren't in a post. Photos *in* posts are added by
+# appending #photos to the image URL: ![Caption](https://…jpg#photos)
+#
+# date is optional if the image has EXIF (the build step reads the capture date).
+#
+# [[photo]]
+# src = "https://img.ellie.wtf/i/….jpg"
+# caption = "Golden Gate at dawn"
+# date = 2026-08-20

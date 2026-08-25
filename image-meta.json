@@ -1,0 +1,575 @@
+{
+  "https://img.ellie.wtf/i/08391a7ffaad6f9b7a28aad91c291403c804e4515921742df07ceccb3ddc5f1e.jpg": {
+    "height": 1000,
+    "width": 1164
+  },
+  "https://img.ellie.wtf/i/0d104f69bd993357b026734eae1be9fda6b99b4900bf841539199d2dcd372755.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 70mm \u00b7 f/4.5 \u00b7 1/4000 \u00b7 ISO 100",
+    "height": 4000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-27 22:01:38",
+    "width": 6000
+  },
+  "https://img.ellie.wtf/i/0f71907c18cbd404f45b5fd70c02c0dec24588bb4cc0f39667d0a330d8b6fbe1.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 41mm \u00b7 f/2.8 \u00b7 1/125 \u00b7 ISO 400",
+    "height": 6000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-27 02:00:08",
+    "width": 4000
+  },
+  "https://img.ellie.wtf/i/108be2390b667272528efd7a917886ab99d309d10ee33ebdf2eeb6ecd039b4be.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/13f82968923a66a81656f04e8c15ef4cc7301faecf87a0d1c14662b5c49db6d8.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/15b24b448f11e2dd473f3723abff3d721b1ca968cf61d7e01de6c15952b13197.jpeg": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 77mm \u00b7 f/2.8 \u00b7 1/231 \u00b7 ISO 32",
+    "height": 2879,
+    "taken": "2023-09-25 11:57:40",
+    "width": 3021
+  },
+  "https://img.ellie.wtf/i/16f835dd148da5bc8b43df6eded00dcd58aa1f5437d4397dc6999b8dfd1507b7.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/172fbb1d32d2f1d61f483813e01d11105bb78aa293487dd841a68e604b822cdd.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/1a4023009b55738bd5c8a9dbad4b855d7168308ff7782668a5df928e3ea7d0bf.jpg": {
+    "height": 1500,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/1d875369b4b02669a077439c778531937f996b5c769c8ebfa64ee515ebb810cc.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 17mm \u00b7 f/10 \u00b7 1/20 \u00b7 ISO 3200",
+    "height": 6000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-27 01:47:04",
+    "width": 4000
+  },
+  "https://img.ellie.wtf/i/2a238f5deed4a871b08ca2de7be8de2b40cfc0eb6be7e1e305f75264fb7088e7.jpg": {
+    "height": 500,
+    "width": 500
+  },
+  "https://img.ellie.wtf/i/2b7564cc93397c096dcf0ce9f903c5ac06c337f16336b54ddffc4c82e58dd896.jpg": {
+    "height": 929,
+    "width": 2090
+  },
+  "https://img.ellie.wtf/i/2e8befc770a7ab4cf77280710d3851a79217c5512bd4adb1faf4ef279306d26c.jpg": {
+    "height": 1333,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/2ea431cfbcbd088aab0494a04535e864365237d71a3790005ae8c69738b6a8d5.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 24mm \u00b7 f/2.8 \u00b7 1/1250 \u00b7 ISO 160",
+    "height": 4000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-26 21:58:41",
+    "width": 6000
+  },
+  "https://img.ellie.wtf/i/33da2adfba0dd3bd0ec0023caa9c3c84770166f4beb0ecc7b368a08362fb6cda.jpeg": {
+    "height": 981,
+    "width": 1170
+  },
+  "https://img.ellie.wtf/i/4bcd4bd7f48f92b49ea0008f192aa8dd23921f2913e4694cb9a8a74e002841f3.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 70mm \u00b7 f/3.2 \u00b7 1/640 \u00b7 ISO 160",
+    "height": 4000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-25 21:50:53",
+    "width": 6000
+  },
+  "https://img.ellie.wtf/i/4f791d0ca385899285662c639fb68d20d04ee4e7a4f3c835e9ff06f183081fd9.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/4fdb295d3303f0871d00782a3ef40157329f52c4f9698241c1cc2bb4ed99af56.jpg": {
+    "height": 725,
+    "width": 1170
+  },
+  "https://img.ellie.wtf/i/51c4121d8b13cd29ff1df81dd6b8e02db2d3772534a801bd4f5dfd8dd869e184.jpeg": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 26mm \u00b7 f/1.5 \u00b7 1/4630 \u00b7 ISO 50",
+    "height": 2008,
+    "taken": "2023-09-25 11:53:24",
+    "width": 3024
+  },
+  "https://img.ellie.wtf/i/54647e2d6537b136019c3c895b8bf8e0407d80909f04beaca912bb599e85b84a.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 50mm \u00b7 f/2.8 \u00b7 1/3200 \u00b7 ISO 160",
+    "height": 4000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-28 00:01:43",
+    "width": 6000
+  },
+  "https://img.ellie.wtf/i/560793da8b7eeca7f4254fcb38a26a3c41021fef86d707af3a7f3724058cc5f7.JPG": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 26mm \u00b7 f/1.5 \u00b7 1/3704 \u00b7 ISO 50",
+    "height": 4032,
+    "taken": "2023-09-27 13:06:58",
+    "width": 3024
+  },
+  "https://img.ellie.wtf/i/596a84f42c35dcdb6df2b9edab54109c0d198f632dc94a81758b4c9540a2b7e8.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 33mm \u00b7 f/2.8 \u00b7 1/30 \u00b7 ISO 100",
+    "height": 6000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-27 02:03:45",
+    "width": 4000
+  },
+  "https://img.ellie.wtf/i/5d07e9739788d56cb152f76c3c9b8783c05fe78373c956a144e85e1d3dbd9372.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/61809d8afda86035bc05e3b8b97c34fc7ad7b5d3f41978d1a1f38d0b1d2aa45f.jpg": {
+    "height": 453,
+    "width": 680
+  },
+  "https://img.ellie.wtf/i/6c11cb0c1adf8ec0e92c8156e8be54590ac41f94a53acc87c4a642c2625d8532.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/6d52a2abe726e51c6020f8d2649afbb007fb3317f4c22b1aa4f426220bcb6895.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 58mm \u00b7 f/4.5 \u00b7 1/2500 \u00b7 ISO 100",
+    "height": 4000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-27 18:22:04",
+    "width": 6000
+  },
+  "https://img.ellie.wtf/i/7132cb66d39602d2741da6ade98d86c01a16c8e6dcc33c26387145da711afeef.jpg": {
+    "height": 1500,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/73f146707109be7b378e5a337a30404ff864ee7c3bca7913553ba11d754d07ea.jpeg": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 26mm \u00b7 f/1.5 \u00b7 1/60 \u00b7 ISO 320",
+    "height": 2370,
+    "taken": "2023-09-25 19:05:51",
+    "width": 3024
+  },
+  "https://img.ellie.wtf/i/77e3db766d18e651f2c8e469375cb857312779e3c5d34b09b9707ddc38a2f0d4.jpeg": {
+    "height": 967,
+    "width": 1170
+  },
+  "https://img.ellie.wtf/i/7912a1826ab2de6f9b7779c0e3a171e85d177a6de4286bbec16b0514246b603d.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 28mm \u00b7 f/4.5 \u00b7 1/1600 \u00b7 ISO 100",
+    "height": 4000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-27 21:55:36",
+    "width": 6000
+  },
+  "https://img.ellie.wtf/i/7e57bb3234807a898b660338e6691f3b595738f67dd407091874c7e1aa01e28f.jpg": {
+    "height": 3000,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/84deb9a76972e7ed15e62bb68e1fc5a1abe97772cc4ac0df8ec1af0b93ec5b68.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/84fb1e13d7fa2e667822803b36fa5d6ab71c0f7ead9e66237ac116a278778371.jpg": {
+    "height": 929,
+    "width": 2090
+  },
+  "https://img.ellie.wtf/i/8b3ee7b86664ff98302e2126ca995fb3afe58991895e25d266845d8520a25936.jpg": {
+    "height": 3000,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/9e0a592cd53ec77cf0e5daaeff15a458d84626f18577a4719836ec7df38ff497.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/a390afc8637ab00116b760c49c7a2800877fb34cf892d727c71d1d4234cb4c16.jpg": {
+    "height": 1439,
+    "width": 1440
+  },
+  "https://img.ellie.wtf/i/a4d8775ac7184ebea6d9e96064a1c32a6f227b4645845331443d90a535de77e0.jpg": {
+    "height": 1440,
+    "width": 1440
+  },
+  "https://img.ellie.wtf/i/a55a3101e3f09ab084e911c7cfc121eefef3fbefeabcaef5b80c295efe42524a.jpg": {
+    "height": 1333,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/a8fc4d438dd9d9d3ddd1bc5ae45385ba37a1e7407bb932f5cc69bbe27b97871a.jpeg": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 26mm \u00b7 f/1.5 \u00b7 1/40 \u00b7 ISO 500",
+    "height": 4032,
+    "taken": "2023-09-26 14:31:21",
+    "width": 3024
+  },
+  "https://img.ellie.wtf/i/ac2a9b30383f66afa09cfd561c06a9e2554f1eb043568c719412640d1c986363.jpeg": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 26mm \u00b7 f/1.5 \u00b7 1/167 \u00b7 ISO 40",
+    "height": 4032,
+    "taken": "2023-09-25 17:52:08",
+    "width": 3024
+  },
+  "https://img.ellie.wtf/i/ad40be4f072aa231df11673fe4bf04a81cbba192aaf0ed9953012a5dc81bcc24.jpg": {
+    "height": 1500,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/ad6eaab6b2dbe4eca83d7bb12d73bea5774c5e406ab7e9c0e7a2ade06995d373.jpg": {
+    "height": 1439,
+    "width": 1440
+  },
+  "https://img.ellie.wtf/i/ad7dd73b5a79300d43169c47a19d3ac7fef02f64b26f9b788472ac2e54c4b2b8.jpeg": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 77mm \u00b7 f/2.8 \u00b7 1/99 \u00b7 ISO 80",
+    "height": 4032,
+    "taken": "2023-09-26 14:35:59",
+    "width": 3024
+  },
+  "https://img.ellie.wtf/i/ada76f57ae8dc3a95b7f3b9f3ef966b1e712e3f530b4f4820088ff1ba82574c5.png": {
+    "height": 618,
+    "width": 1266
+  },
+  "https://img.ellie.wtf/i/aeec219bed70d75ab790246f95bec52a8e4b9f7f8ba51b06c587dc2726d83933.jpeg": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 26mm \u00b7 f/1.5 \u00b7 1/552 \u00b7 ISO 50",
+    "height": 4032,
+    "taken": "2023-09-26 09:34:32",
+    "width": 3024
+  },
+  "https://img.ellie.wtf/i/b234bbf77cc36f6c63ce8855a8a24f6b59fce6fdc143670e680f90d7d368d407.jpeg": {
+    "camera": "Google Pixel 5",
+    "exif": "Google Pixel 5 \u00b7 27mm \u00b7 f/1.7 \u00b7 1/202 \u00b7 ISO 55",
+    "height": 3811,
+    "taken": "2023-09-26 10:51:58",
+    "width": 2143
+  },
+  "https://img.ellie.wtf/i/b3b627fb48719681938985af3c8189ff16af6032b62baebf93eaef21d1c2c421.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 70mm \u00b7 f/3.2 \u00b7 1/400 \u00b7 ISO 160",
+    "height": 6000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-25 21:50:15",
+    "width": 4000
+  },
+  "https://img.ellie.wtf/i/b9f1eeae8c35ce05660db6aea70b2ad469a2f1d7d52ce2691ece0cf65bf0e2e0.jpg": {
+    "height": 2030,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/bcf4a32d0f838e553340200a167b691f90c7abdc388ec25f1748e5cfacd69a7b.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 70mm \u00b7 f/2.8 \u00b7 1/4000 \u00b7 ISO 160",
+    "height": 6000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-25 20:48:53",
+    "width": 4000
+  },
+  "https://img.ellie.wtf/i/c27bda5248244375162b31a144e41810c084bddefe44725313ec31bc779ba405.JPG": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 26mm \u00b7 f/1.8 \u00b7 1/25 \u00b7 ISO 1600",
+    "height": 4032,
+    "taken": "2024-06-12 22:14:16",
+    "width": 3024
+  },
+  "https://img.ellie.wtf/i/c458772fca92497b4d10740748a36abc645066a2c7b629a45ed015615d67a346.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/ceeaee98f04689b6fca27e2604b98663ddc8e37ffff7e4026757fbcb41e6d7b5.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/d54941df0ac9431ffdd24619e56db454d779b079664ac7d7e6eec2bf7e0a9697.jpg": {
+    "height": 505,
+    "width": 510
+  },
+  "https://img.ellie.wtf/i/dd97eec83f4c708cab92bdb661fa030250c26c62c9fa62eacea6c099632229d7.jpg": {
+    "height": 1500,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/e5e5abad2aeaf60297dc2a9f0f50a182c7339fe7a5bdaa2ee41808e859093d68.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 42mm \u00b7 f/2.8 \u00b7 1/2500 \u00b7 ISO 160",
+    "height": 4000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-26 14:22:25",
+    "width": 6000
+  },
+  "https://img.ellie.wtf/i/e8a0bda5f83c19b7c167f45749f46a853713d01fa4af554d343f50b206c399e6.JPG": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 30mm \u00b7 f/2.2 \u00b7 1/161 \u00b7 ISO 50",
+    "height": 3088,
+    "taken": "2023-09-27 13:07:11",
+    "width": 2316
+  },
+  "https://img.ellie.wtf/i/ee10948f7ed2584413cab577d197714348f863788c64563d76dc7868911de399.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/eeadd0c2efb5f70b219c7d6cfba2bad121ea7d17e3459e661a437369f7e68053.png": {
+    "height": 578,
+    "width": 842
+  },
+  "https://img.ellie.wtf/i/fafb72c71690e71291140105db0fb7ae5c7e56c1c270874f758386766b53ce91.jpg": {
+    "height": 2667,
+    "width": 2000
+  },
+  "https://img.ellie.wtf/i/fc70886f296b79b55304055ec429e734a34bf99931cc4cc5115015b24bde18a9.jpeg": {
+    "height": 958,
+    "width": 1170
+  },
+  "https://img.ellie.wtf/i/fc823c94b9c741f147857522284a1221de915da5174deb34ad413798dcfb254e.jpg": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 58mm \u00b7 f/2.8 \u00b7 1/4000 \u00b7 ISO 100",
+    "height": 4000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-27 23:39:03",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/04e0511cfae6bce27717ce8ea4b0d9e1bd7b17153055b72ce7ee776bef845c08.JPG": {
+    "camera": "Fujifilm X-T5",
+    "exif": "Fujifilm X-T5 \u00b7 XF16-80mmF4 R OIS WR \u00b7 80mm \u00b7 f/4 \u00b7 1/2400 \u00b7 ISO 500",
+    "height": 5152,
+    "lens": "XF16-80mmF4 R OIS WR",
+    "taken": "2026-08-22 19:23:11",
+    "width": 7728
+  },
+  "https://yeet.ellie.wtf/i/0c3bddaad996ed2becb9fadd10369c76c16c665e19eb6d8e71211336e717bcbc.JPG": {
+    "camera": "Fujifilm X-T5",
+    "exif": "Fujifilm X-T5 \u00b7 XF16-80mmF4 R OIS WR \u00b7 16mm \u00b7 f/4 \u00b7 1/340 \u00b7 ISO 500",
+    "height": 5152,
+    "lens": "XF16-80mmF4 R OIS WR",
+    "taken": "2026-08-22 19:50:56",
+    "width": 7728
+  },
+  "https://yeet.ellie.wtf/i/1635a7c3fd72fa64e56be163e8fa5bbde23ec01a883834f7aa5f6ff4494b13e1.JPG": {
+    "camera": "Fujifilm X-T5",
+    "exif": "Fujifilm X-T5 \u00b7 XF16-80mmF4 R OIS WR \u00b7 24.7mm \u00b7 f/4 \u00b7 1/2000 \u00b7 ISO 500",
+    "height": 5152,
+    "lens": "XF16-80mmF4 R OIS WR",
+    "taken": "2026-08-22 19:24:45",
+    "width": 7728
+  },
+  "https://yeet.ellie.wtf/i/1c3abce19281e43cac44b1441e023c3a0d7daac9ff64962f3e3c21b8adcf4660.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/30 \u00b7 ISO 200",
+    "height": 4000,
+    "taken": "2026-08-22 20:02:44",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/2298dc411c4b61a010313c77e894f8d16f9ab0b6102de3eef9521d04ae01ec6d.JPG": {
+    "camera": "Fujifilm X-T5",
+    "exif": "Fujifilm X-T5 \u00b7 XF16-80mmF4 R OIS WR \u00b7 50.5mm \u00b7 f/4 \u00b7 1/7500 \u00b7 ISO 500",
+    "height": 5152,
+    "lens": "XF16-80mmF4 R OIS WR",
+    "taken": "2026-08-22 16:58:01",
+    "width": 7728
+  },
+  "https://yeet.ellie.wtf/i/2354a77737981346d89a305f5555894b757274eaac2facad62b43bcd48faab2b.JPG": {
+    "camera": "Fujifilm X-T4",
+    "exif": "Fujifilm X-T4 \u00b7 Fujifilm Fujinon XF56mmF1.2 R \u00b7 56mm \u00b7 f/1.2 \u00b7 1/2000 \u00b7 ISO 160",
+    "height": 4096,
+    "lens": "Fujifilm Fujinon XF56mmF1.2 R",
+    "taken": "2022-04-09 14:25:22",
+    "width": 3276
+  },
+  "https://yeet.ellie.wtf/i/23b2c66f853c4ed09c4382bd2fa0cdda74fd415cf1ff9738525a4f1d2ed717cc.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/1600 \u00b7 ISO 200",
+    "height": 4000,
+    "taken": "2026-08-22 16:19:09",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/2931ec60ab4e8f56afbf0e486cb20245ab971e72ddd78e8e7c1b0f84f6549cd7.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/30 \u00b7 ISO 640",
+    "height": 4000,
+    "taken": "2026-08-21 22:45:10",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/2da5e1c479d6f6cafd364cd95db8c51ca9928dff8653abc09c29b3d53a2e6115.jpeg": {
+    "height": 2160,
+    "taken": "2025-10-14 15:21:52",
+    "width": 1440
+  },
+  "https://yeet.ellie.wtf/i/30bb2b570c18f0f5e80a513d4a8e5389fa8a26f47bebd5d7bb57b32bd80671b8.jpeg": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/30 \u00b7 ISO 400",
+    "height": 4000,
+    "taken": "2026-08-21 22:49:48",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/44ef0a6f44d420ec5f6a206fa5b13fbe0f8cf78a0b0a299b3a5793b3ff7cb5f6.JPG": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 E 17-70mm F2.8 B070 \u00b7 70mm \u00b7 f/3.2 \u00b7 1/640 \u00b7 ISO 160",
+    "height": 4000,
+    "lens": "E 17-70mm F2.8 B070",
+    "taken": "2023-09-25 21:50:53",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/4eec6948b96ebcc802f539f64591921fd559853f25dfd2b0f7ad7b7fde921b07.JPG": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 30mm F1.4 DC DN | Contemporary 016 \u00b7 30mm \u00b7 f/1.6 \u00b7 1/125 \u00b7 ISO 500",
+    "height": 5865,
+    "lens": "30mm F1.4 DC DN | Contemporary 016",
+    "taken": "2022-09-28 03:39:13",
+    "width": 3910
+  },
+  "https://yeet.ellie.wtf/i/500a23c91d05ff7992a9d6e43f423690f5a2a4594883e9f5bd7d611924382e1c.jpg": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/1600 \u00b7 ISO 200",
+    "height": 5994,
+    "taken": "2026-08-22 19:01:12",
+    "width": 2757
+  },
+  "https://yeet.ellie.wtf/i/5055036bda5e7d65b10a551923c8de4b21eb01fe31ace5f12421efab5987b150.jpeg": {
+    "camera": "iPhone 17 Pro Max",
+    "exif": "iPhone 17 Pro Max \u00b7 20mm \u00b7 f/1.9 \u00b7 1/121 \u00b7 ISO 50",
+    "height": 3024,
+    "taken": "2026-08-23 13:03:39",
+    "width": 4032
+  },
+  "https://yeet.ellie.wtf/i/5368e794941467afd84b1e006744df32f74c7ef341eba049bea8e7fa7251dfe3.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/2000 \u00b7 ISO 200",
+    "height": 6000,
+    "taken": "2026-08-22 14:57:38",
+    "width": 4000
+  },
+  "https://yeet.ellie.wtf/i/5e186873dd17b46fcc7a00391a76ed7317cf031a123c4f94f3a17672921a9f61.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/1600 \u00b7 ISO 200",
+    "height": 6000,
+    "taken": "2026-08-22 13:24:23",
+    "width": 4000
+  },
+  "https://yeet.ellie.wtf/i/680cd746e32c655c07282440b5fe41cbe5f3ad556415b70d662c0228a58020c6.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/2000 \u00b7 ISO 200",
+    "height": 6000,
+    "taken": "2026-08-22 16:17:43",
+    "width": 4000
+  },
+  "https://yeet.ellie.wtf/i/77145ffc9f8acd48cf5bcbce0e519f653c2c55a44bffcfbd23af419f72c1bb34.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/30 \u00b7 ISO 400",
+    "height": 4000,
+    "taken": "2026-08-21 22:49:48",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/8fc7859a02a6b471b687f0fd6b87435e0fa4bef815aff7e6f9ac87226599f5e2.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/2000 \u00b7 ISO 200",
+    "height": 4000,
+    "taken": "2026-08-22 12:21:58",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/90a6565cd302823b53ae02b953a09af897e777c5e37fff0be54f68308b899cee.jpeg": {
+    "camera": "iPhone 13 Pro",
+    "exif": "iPhone 13 Pro \u00b7 26mm \u00b7 f/1.5 \u00b7 1/30303 \u00b7 ISO 32",
+    "height": 4032,
+    "taken": "2022-02-24 15:06:33",
+    "width": 3024
+  },
+  "https://yeet.ellie.wtf/i/a03f3232fd0df3fe8bc9853e0db962e8265193f07fe5a5ca8df61d2245058a26.JPG": {
+    "camera": "Fujifilm X-T5",
+    "exif": "Fujifilm X-T5 \u00b7 XF16-80mmF4 R OIS WR \u00b7 80mm \u00b7 f/4 \u00b7 1/120 \u00b7 ISO 800",
+    "height": 7728,
+    "lens": "XF16-80mmF4 R OIS WR",
+    "taken": "2026-08-22 19:57:07",
+    "width": 5152
+  },
+  "https://yeet.ellie.wtf/i/a76eb49942ed02b059326f1667d5f1b7fcfcdb4d39360748d35ada963d53b17a.JPG": {
+    "camera": "Fujifilm X70",
+    "exif": "Fujifilm X70 \u00b7 18.5mm \u00b7 f/2.8 \u00b7 1/60 \u00b7 ISO 250",
+    "height": 4896,
+    "taken": "2026-08-22 19:09:17",
+    "width": 3264
+  },
+  "https://yeet.ellie.wtf/i/a787879eab62183b2fcb577609649e28b87b6581d090e643f41386b834ebfff0.JPG": {
+    "camera": "Sony ILCE-6400",
+    "exif": "Sony ILCE-6400 \u00b7 30mm F1.4 DC DN | Contemporary 016 \u00b7 30mm \u00b7 f/16 \u00b7 1/125 \u00b7 ISO 200",
+    "height": 4000,
+    "lens": "30mm F1.4 DC DN | Contemporary 016",
+    "taken": "2022-07-05 10:36:32",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/aa1b93fa5ae5bf3c2334f05f4894190f06253515dedf51a08bead659576407e2.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/2000 \u00b7 ISO 200",
+    "height": 6000,
+    "taken": "2026-08-22 11:21:21",
+    "width": 4000
+  },
+  "https://yeet.ellie.wtf/i/aab1aa27e7271121ffda884be750b07906d6b4c5e6720948745ef1af0cb7226d.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/1250 \u00b7 ISO 200",
+    "height": 6000,
+    "taken": "2026-08-22 17:19:38",
+    "width": 4000
+  },
+  "https://yeet.ellie.wtf/i/b5bc0a71ba324f1867f588c876f851791fc737fbb063f8235079e39e03c69d00.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/30 \u00b7 ISO 4000",
+    "height": 6000,
+    "taken": "2026-08-21 23:19:51",
+    "width": 4000
+  },
+  "https://yeet.ellie.wtf/i/c989e468490ec74cf924d5af274d650eac827f26424eaf9f850a0ff2bd9511b0.JPG": {
+    "camera": "Fujifilm X-T5",
+    "exif": "Fujifilm X-T5 \u00b7 XF16-80mmF4 R OIS WR \u00b7 80mm \u00b7 f/7.1 \u00b7 1/5000 \u00b7 ISO 800",
+    "height": 5152,
+    "lens": "XF16-80mmF4 R OIS WR",
+    "taken": "2026-08-22 16:31:07",
+    "width": 7728
+  },
+  "https://yeet.ellie.wtf/i/e2cec761f3a3353d00bd4ce001a3b3d749d92133721c362a9f39ae585dfbeb63.gif": {
+    "height": 634,
+    "width": 701
+  },
+  "https://yeet.ellie.wtf/i/e683577c1ff1ca19a641679a0035af83c231e1102968b7c1a0b8610a56718f06.JPG": {
+    "camera": "Fujifilm X-T5",
+    "exif": "Fujifilm X-T5 \u00b7 XF16-80mmF4 R OIS WR \u00b7 16mm \u00b7 f/4 \u00b7 1/900 \u00b7 ISO 500",
+    "height": 5152,
+    "lens": "XF16-80mmF4 R OIS WR",
+    "taken": "2026-08-22 19:51:13",
+    "width": 7728
+  },
+  "https://yeet.ellie.wtf/i/e758664ebddff9a56d8ebe533cec8e571620c37b3621af3df12d08b607afcc16.JPG": {
+    "camera": "Canon EOS R5",
+    "exif": "Canon EOS R5 \u00b7 EF100-400mm f/4.5-5.6L IS II USM +1.4x \u00b7 560mm \u00b7 f/8 \u00b7 1/800 \u00b7 ISO 800",
+    "height": 3392,
+    "lens": "EF100-400mm f/4.5-5.6L IS II USM +1.4x",
+    "taken": "2022-06-25 12:35:51",
+    "width": 5088
+  },
+  "https://yeet.ellie.wtf/i/ea0fcba5cac9221cfb9937f3389eee359fdb698bf480438141b75faa7e7c7330.JPG": {
+    "camera": "Fujifilm X-T5",
+    "exif": "Fujifilm X-T5 \u00b7 XF16-80mmF4 R OIS WR \u00b7 80mm \u00b7 f/4 \u00b7 1/1400 \u00b7 ISO 500",
+    "height": 5152,
+    "lens": "XF16-80mmF4 R OIS WR",
+    "taken": "2026-08-22 19:48:31",
+    "width": 7728
+  },
+  "https://yeet.ellie.wtf/i/ff18ed3e39d68fa3db2d4b3fa1983a4de7d38d4796a1a3510acf9d83cadc2043.JPG": {
+    "camera": "RICOH GR III",
+    "exif": "RICOH GR III \u00b7 28mm \u00b7 f/2.8 \u00b7 1/250 \u00b7 ISO 200",
+    "height": 4000,
+    "taken": "2026-08-22 12:39:20",
+    "width": 6000
+  },
+  "https://yeet.ellie.wtf/i/ff5aaa1571debec427f7507cf414b46385ebb28b3983a6e7dd927e721430c950.JPG": {
+    "height": 4032,
+    "width": 3024
+  },
+  "https://yeet.ellie.wtf/i/ff88f407976a7aaa9e42388073dacff6d8ca4cf938ff044009aa29e364b5a051.JPG": {
+    "camera": "Fujifilm X-T5",
+    "exif": "Fujifilm X-T5 \u00b7 XF16-80mmF4 R OIS WR \u00b7 39.3mm \u00b7 f/4.5 \u00b7 1/6000 \u00b7 ISO 500",
+    "height": 5152,
+    "lens": "XF16-80mmF4 R OIS WR",
+    "taken": "2026-08-22 16:37:36",
+    "width": 7728
+  }
+}

@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} · {{ config.title }}{% endblock title %}
+{% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}
+{% block path %}~/photos{% endblock path %}
+{% block container_class %} wide{% endblock container_class %}
+
+{% block content %}
+{% set data = load_data(path="_photos.json", required=false) %}
+<div class="section-page photos-page">
+  <div class="section-header">
+    <h1># {{ section.title | lower }}</h1>
+    <span class="section-path">~/photos</span>
+  </div>
+
+  {% if section.description %}
+  <p class="section-description">{{ section.description }}</p>
+  {% endif %}
+
+  {% if data and data.years | length > 0 %}
+  {% set_global cameras = [] %}
+  {% set_global posts = [] %}
+  {% for group in data.years %}{% for photo in group.photos %}
+    {% if photo.camera and photo.camera not in cameras %}{% set_global cameras = cameras | concat(with=photo.camera) %}{% endif %}
+    {% if photo.title and photo.title not in posts %}{% set_global posts = posts | concat(with=photo.title) %}{% endif %}
+  {% endfor %}{% endfor %}
+
+  <div class="photo-filters">
+    <div class="photo-filter-row" data-key="camera">
+      <span class="photo-filter-label">camera</span>
+      <button class="photo-filter is-active" data-value="">all</button>
+      {% for c in cameras | sort %}<button class="photo-filter" data-value="{{ c }}">{{ c }}</button>{% endfor %}
+    </div>
+    <div class="photo-filter-row" data-key="post">
+      <span class="photo-filter-label">from</span>
+      <button class="photo-filter is-active" data-value="">all</button>
+      {% for t in posts %}<button class="photo-filter" data-value="{{ t }}">{{ t }}</button>{% endfor %}
+    </div>
+  </div>
+
+  {% for group in data.years %}
+  <section class="photos-year-group">
+  <h2 class="photos-year">{{ group.year }}</h2>
+  <div class="photo-grid gallery">
+    {% for photo in group.photos %}
+    <img src="{{ photo.src | safe }}" alt="{{ photo.caption }}" loading="lazy"
+      data-camera="{{ photo.camera }}" data-post="{{ photo.title }}"
+      {% if photo.href %}data-href="{{ photo.href | safe }}" data-title="{{ photo.title }}"{% endif %}
+      {% if photo.exif %}data-exif="{{ photo.exif }}"{% endif %}>
+    {% endfor %}
+  </div>
+  </section>
+  {% endfor %}
+  <p class="photos-empty" hidden>Nothing matches.</p>
+
+  <script>
+    (function() {
+      var active = { camera: "", post: "" };
+      var imgs = Array.from(document.querySelectorAll(".photos-page .gallery img"));
+      var groups = Array.from(document.querySelectorAll(".photos-year-group"));
+      var empty = document.querySelector(".photos-empty");
+
+      function apply() {
+        imgs.forEach(function(img) {
+          img.hidden = (active.camera && img.dataset.camera !== active.camera) ||
+                       (active.post && img.dataset.post !== active.post);
+        });
+        groups.forEach(function(g) {
+          g.hidden = !g.querySelector("img:not([hidden])");
+        });
+        empty.hidden = imgs.some(function(img) { return !img.hidden; });
+        // Grey out chips that would produce no results given the other filter.
+        document.querySelectorAll(".photo-filter-row").forEach(function(row) {
+          var key = row.dataset.key, other = key === "camera" ? "post" : "camera";
+          row.querySelectorAll(".photo-filter").forEach(function(btn) {
+            var v = btn.dataset.value;
+            btn.classList.toggle("is-active", v === active[key]);
+            btn.disabled = !!v && !imgs.some(function(img) {
+              return img.dataset[key] === v && (!active[other] || img.dataset[other] === active[other]);
+            });
+          });
+        });
+        var q = new URLSearchParams();
+        if (active.camera) q.set("camera", active.camera);
+        if (active.post) q.set("from", active.post);
+        history.replaceState(null, "", q.toString() ? "?" + q : location.pathname);
+      }
+
+      document.querySelectorAll(".photo-filter").forEach(function(btn) {
+        btn.addEventListener("click", function() {
+          var key = btn.closest(".photo-filter-row").dataset.key;
+          active[key] = active[key] === btn.dataset.value ? "" : btn.dataset.value;
+          apply();
+        });
+      });
+
+      var q = new URLSearchParams(location.search);
+      active.camera = q.get("camera") || "";
+      active.post = q.get("from") || "";
+      apply();
+    })();
+  </script>
+  {% else %}
+  <p style="color: #a1a1aa; font-size: 0.875rem;">Nothing here yet.</p>
+  {% endif %}
+</div>
+{% endblock content %}

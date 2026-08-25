@@ -1,0 +1,4 @@
+# /life merged into /posts
+/life/               /posts/                               301
+/life/2022/          /posts/2022/                          301
+/life/*              /posts/:splat                         301

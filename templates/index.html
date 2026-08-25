@@ -52,7 +52,7 @@
         <span class="section-path">~/posts</span>
       </div>
       <ul class="post-list">
-        {% for page in posts_section.pages | slice(end=5) %}
+        {% for page in posts_section.pages | slice(end=10) %}
         <li>
           <div>
             <a href="{{ page.path }}" class="post-title">{{ page.title }}</a>
@@ -64,34 +64,8 @@
         </li>
         {% endfor %}
       </ul>
-      {% if posts_section.pages | length > 5 %}
+      {% if posts_section.pages | length > 10 %}
       <a href="/posts/" class="see-all">all posts &rarr;</a>
-      {% endif %}
-    </div>
-    {% endif %}
-
-    {% set life_section = get_section(path="life/_index.md") %}
-    {% if life_section.pages | length > 0 %}
-    <div style="margin-bottom: 2rem;">
-      <div class="section-header">
-        <h2># life</h2>
-        <span class="section-path">~/life</span>
-      </div>
-      <ul class="post-list">
-        {% for page in life_section.pages | slice(end=5) %}
-        <li>
-          <div>
-            <a href="{{ page.path }}" class="post-title">{{ page.title }}</a>
-            {{ m::tags(page=page) }}
-          </div>
-          {% if page.date %}
-          <span class="post-date">{{ page.date | date(format="%b %d, %Y") }}</span>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-      {% if life_section.pages | length > 5 %}
-      <a href="/life/" class="see-all">all life &rarr;</a>
       {% endif %}
     </div>
     {% endif %}

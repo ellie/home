@@ -24,4 +24,10 @@ done
 json="$json }"
 echo "$json" > content/_git-dates.json
 
+# Collect tagged post images + photos.toml into content/_photos.json for /photos
+./scripts/photos.py
+
 zola build "$@"
+
+# Annotate images with dimensions (justified grids) and EXIF (lightbox)
+./scripts/image-meta.py

@@ -2,12 +2,16 @@
 title = "2022, my year in review"
 slug = "2022"
 date = 2023-01-10
+aliases = ["/life/2022/"]
 
 [taxonomies]
 tags = ["year"]
+
+[extra]
+photos_date = 2022-12-31
 +++
 
-![](https://img.ellie.wtf/i/2e8befc770a7ab4cf77280710d3851a79217c5512bd4adb1faf4ef279306d26c.jpg)
+![](https://yeet.ellie.wtf/i/a787879eab62183b2fcb577609649e28b87b6581d090e643f41386b834ebfff0.JPG#photos)
 
 2022 has probably been one of the best years of my life, so I'd like to do my best to document everything that has happened - away from social media, and on something a little longer form!
 
@@ -37,7 +41,7 @@ I've always wanted to travel more (who hasn't?). Prior to COVID, a combination o
 
 The first trip of the year was to the Pyrenees, where I tried snowboarding for the first time. I wasn't really a fan of the sport, but I've always loved mountains. So instead I spent some time messing about with snowmobiles and hiking
 
-![](https://img.ellie.wtf/i/9e0a592cd53ec77cf0e5daaeff15a458d84626f18577a4719836ec7df38ff497.jpg)
+![](https://yeet.ellie.wtf/i/90a6565cd302823b53ae02b953a09af897e777c5e37fff0be54f68308b899cee.jpeg#photos)
 
 I was actually in the middle of a valley, alone, with super spotty phone reception, when the news of Russia invading Ukraine broke. I didn't have good enough data to find out if the world was ending, so tried to make the most of the alpine calm.
 
@@ -49,7 +53,7 @@ In March/April, I went for a trip to California. I've always fancied visiting, s
 
 For the second week, I met some friends from London in LA, where we attended the Bike Shed LA opening party + rode some canyons (I rented a Panigale V4, as it was also my 23rd birthday...).
 
-![](https://img.ellie.wtf/i/8b3ee7b86664ff98302e2126ca995fb3afe58991895e25d266845d8520a25936.jpg)
+![](https://yeet.ellie.wtf/i/2354a77737981346d89a305f5555894b757274eaac2facad62b43bcd48faab2b.JPG#photos)
 
 The bay was great, but to be totally honest LA wasn't really for me. Driving everywhere was super annoying, as I like walking. It also felt far too fake and ingenuine for me.
 
@@ -66,7 +70,7 @@ Over the summer, I toured Europe with my friend Laura, doing 2000 miles in a wee
 # Motorcycles
 If it's not already obvious from the above, motorcycles are a pretty big part of my life. I attended a whole bunch of track days, learned to get my knee down (and got much faster in the process), and went on a tour.
 
-![](https://img.ellie.wtf/i/a55a3101e3f09ab084e911c7cfc121eefef3fbefeabcaef5b80c295efe42524a.jpg)
+![](https://yeet.ellie.wtf/i/e758664ebddff9a56d8ebe533cec8e571620c37b3621af3df12d08b607afcc16.JPG#photos)
 
 Along the way, I made some new friends too! Motorcycles have had a huge impact one me, and are now a pretty strong part of my social life.
 
@@ -75,7 +79,7 @@ In 2023 I'm hoping to get some more track time, try some riding disciplines I ha
 # Photography
 I've always fancied trying photography - and in 2022 I did! I bought an A6400 and a couple of Sigma prime lenses from a friend, with their first proper outing being the Europe tour. I've really enjoyed taking photos this year, and I'm really looking forward to learning more in 2023.
 
-![](https://img.ellie.wtf/i/7e57bb3234807a898b660338e6691f3b595738f67dd407091874c7e1aa01e28f.jpg)
+![](https://yeet.ellie.wtf/i/4eec6948b96ebcc802f539f64591921fd559853f25dfd2b0f7ad7b7fde921b07.JPG#photos)
 # Gym
 2022 is also the first year where I pretty consistently went to the gym! I've been on-and-off forever, but starting in November 2021 I starting regularly lifting weights. The impact on my health and mood has been immense, and I've now found a new hobby.
 I'm hoping to really up the intensity in 2023, and also work some more on getting my diet right.

@@ -1,14 +1,15 @@
 +++
 title = "Fort Bragg to Weaverville"
 date = 2023-09-26
+aliases = ["/life/ft-bragg-to-weaverville/"]
 
 [taxonomies]
-tags = ["usa", "wc23"]
+tags = ["usa", "wc23", "motorcycle"]
 +++
 
-![](https://img.ellie.wtf/i/e5e5abad2aeaf60297dc2a9f0f50a182c7339fe7a5bdaa2ee41808e859093d68.jpg)
+![](https://img.ellie.wtf/i/e5e5abad2aeaf60297dc2a9f0f50a182c7339fe7a5bdaa2ee41808e859093d68.jpg#photos)
 
-Carrying on from [yesterday](/life/san-francisco-to-fort-bragg/), we woke up early and got ready to ride the stretch up to Weaverville. The view from the hotel this morning was absolutely stunning - the fog was slowly burning off as the sun was brightening up, and the valley was echoing with seal calls. They were less atmospheric at 3am last night, though.
+Carrying on from [yesterday](/posts/san-francisco-to-fort-bragg/), we woke up early and got ready to ride the stretch up to Weaverville. The view from the hotel this morning was absolutely stunning - the fog was slowly burning off as the sun was brightening up, and the valley was echoing with seal calls. They were less atmospheric at 3am last night, though.
 
 I've entirely shaken off the jet lag at this point, and slept through to 06:30 without any major difficulties 🥳 It only took two nights to get used to the new timezone, so not bad!
 
@@ -25,7 +26,7 @@ After turning off, we spent a good while riding through forest. There was no fog
 
 Some of the redwoods are impressively large, the biggest I saw was at a tourist spot. Turns out, in America, they even have drive-thru trees!
 
-<img src ="https://img.ellie.wtf/i/b234bbf77cc36f6c63ce8855a8a24f6b59fce6fdc143670e680f90d7d368d407.jpeg" class="tall-img">
+<img src="https://img.ellie.wtf/i/b234bbf77cc36f6c63ce8855a8a24f6b59fce6fdc143670e680f90d7d368d407.jpeg" class="tall-img">
 
 Our next stop was Garberville, and it was the last one before many miles without petrol stations. We filled up with “gas”, and snacks. It was at this point that Michelle’s key snapped out of the holder, so we also had to pick up some pliars 
 
