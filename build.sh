@@ -30,4 +30,10 @@ echo "$json" > content/_git-dates.json
 zola build "$@"
 
 # Annotate images with dimensions (justified grids) and EXIF (lightbox)
-./scripts/image-meta.py
+# Cloudflare Pages has python3/pip but not uv; install it there.
+if command -v uv >/dev/null 2>&1; then
+  ./scripts/image-meta.py
+else
+  python3 -m pip install --quiet uv
+  python3 -m uv run --quiet --script scripts/image-meta.py
+fi
