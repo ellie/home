@@ -5,6 +5,9 @@ aliases = ["/life/the-lost-coast/"]
 
 [taxonomies]
 tags = ["motorcycle"]
+
+[extra]
+image = "https://yeet.ellie.wtf/i/23b2c66f853c4ed09c4382bd2fa0cdda74fd415cf1ff9738525a4f1d2ed717cc.JPG"
 +++
 
 Been a minute since I wrote one of these! Since the last one, I've moved to California. But I can write more about that later :)
