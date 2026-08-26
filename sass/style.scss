@@ -178,6 +178,7 @@ main {
 
     img {
       width: 100%;
+      height: auto; // build step adds width/height attrs
       border-radius: 0.25rem;
     }
   }
@@ -847,6 +848,7 @@ blockquote[class^="markdown-alert"] {
     img {
       flex: none;
       width: 100%;
+      height: auto;
     }
 
     figcaption {
