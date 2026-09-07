@@ -2,6 +2,12 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
+# Photo generation can invoke image-meta.py before the Zola build.
+if ! command -v uv >/dev/null 2>&1; then
+  python3 -m pip install --quiet uv
+  export PATH="$(python3 -c 'import sysconfig; print(sysconfig.get_path("scripts"))'):$(python3 -m site --user-base)/bin:$PATH"
+fi
+
 # Generate git-based "updated" dates for wiki pages
 json="{"
 first=true
@@ -30,10 +36,4 @@ echo "$json" > content/_git-dates.json
 zola build "$@"
 
 # Annotate images with dimensions (justified grids) and EXIF (lightbox)
-# Cloudflare Pages has python3/pip but not uv; install it there.
-if command -v uv >/dev/null 2>&1; then
-  ./scripts/image-meta.py
-else
-  python3 -m pip install --quiet uv
-  python3 -m uv run --quiet --script scripts/image-meta.py
-fi
+./scripts/image-meta.py
